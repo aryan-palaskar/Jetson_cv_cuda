@@ -1,5 +1,5 @@
 # Jetson_orin_cv_cuda
-build opencv 4.5.5 / 4.6.0 etc. with CUDA on Jetson Orin dev kit
+build opencv 4.10.0 with CUDA on Jetson Xavier and Orin dev kit
 
 The code is developed by Nvidia
 
