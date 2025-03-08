@@ -12,20 +12,8 @@
 version="4.10.0"
 folder="workspace"
 
-for (( ; ; ))
-do
-    echo "Do you want to remove the default OpenCV (yes/no)?"
-    read rm_old
-
-    if [ "$rm_old" = "yes" ]; then
-        echo "** Remove other OpenCV first"
-        sudo apt -y purge *libopencv*
-	break
-    elif [ "$rm_old" = "no" ]; then
-	break
-    fi
-done
-
+echo "** Remove other OpenCV first"
+sudo apt -y purge *libopencv*
 
 echo "------------------------------------"
 echo "** Install requirement (1/4)"
